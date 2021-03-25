@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk-768x508.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  text-align: right;
+  background-color: wheat;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  
+  margin-bottom: 3px;
+  color:black;
+}
+.container h2{
+color:black;
+font-size:40px;
+
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+ 
+  
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-image:url(https://media.wired.com/photos/5fdb8cf40d43f1e1eafb6eeb/191:100/w_2400,h_1256,c_limit/Science_nightsky_462555821.jpg);
+  text-align: center;
+  background-size:cover;
+  
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-family: 'Times New Roman';
+  color:white;
+  text-align: left;
+  font-size: 40px;
+}
+.my-name{
+    font-size: 20px;
+}
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+.my-name p{
+color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
+.my-name{
+    color:black;
+}
+.hobby-wrapper h1{
+font-size:50px;
+padding-bottom:50px;
+padding-top:30px;
+}
+.hobby-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color:cornsilk;
+  text-align: center;
+
+  
+}
+.hobby {
+  float: left;
+  width: 33%;
+}
+
+.hobby-icon {
+  position: relative;
+}
+
+.hobby-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.hobby-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  
+}
+.achieve-wrapper h1{
+font-size:50px;
+padding-bottom:50px;
+padding-top:30px;
+}
+.achieve-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-image:url(https://dadbloguk.com/wp-content/uploads/2017/04/Achievement.jpg);
+  text-align: center;
+background-size:cover;
+  
+}
+.achieve {
+  float: left;
+  width: 25%;
+}
+
+.achieve-icon {
+  position: relative;
+}
+
+.achieve-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.achieve-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  
+}
+
